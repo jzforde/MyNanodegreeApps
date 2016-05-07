@@ -26,36 +26,42 @@
         style="@style/buttons"
         android:text="@string/popular_movies"
         android:id="@+id/popular_movies"
-        android:layout_below="@+id/my_nanodegree_apps"/>
+        android:layout_below="@+id/my_nanodegree_apps"
+        android:onClick="openMovieApp"/>
 
     <Button
         style="@style/buttons"
         android:text="@string/stock_hawk"
         android:id="@+id/stock_hawk"
-        android:layout_below="@+id/popular_movies"/>
+        android:layout_below="@+id/popular_movies"
+        android:onClick="openStockApp"/>
 
     <Button
         style="@style/buttons"
         android:text="@string/build_it_bigger"
         android:id="@+id/build_it_bigger"
-        android:layout_below="@+id/stock_hawk"/>
+        android:layout_below="@+id/stock_hawk"
+        android:onClick="openBiggerApp"/>
 
     <Button
         style="@style/buttons"
         android:text="@string/make_your_app_material"
         android:id="@+id/make_your_app_material"
-        android:layout_below="@+id/build_it_bigger"/>
+        android:layout_below="@+id/build_it_bigger"
+        android:onClick="openMaterialApp"/>
 
     <Button
         style="@style/buttons"
         android:text="@string/go_ubiquitous"
         android:id="@+id/go_ubiquitous"
-        android:layout_below="@+id/make_your_app_material"/>
+        android:layout_below="@+id/make_your_app_material"
+        android:onClick="openUbiqApp"/>
 
     <Button
         style="@style/buttons"
         android:text="@string/capstone"
         android:id="@+id/capstone"
-        android:layout_below="@+id/go_ubiquitous"/>
+        android:layout_below="@+id/go_ubiquitous"
+        android:onClick="openCapstoneApp"/>
 
 </RelativeLayout>
