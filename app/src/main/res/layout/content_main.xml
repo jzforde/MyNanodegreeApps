@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jforde.mynanodegreeapps.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/my_nanodegree_apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/my_nanodegree"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/popular_movies"
+        android:id="@+id/popular_movies"
+        android:layout_below="@+id/my_nanodegree_apps"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/stock_hawk"
+        android:id="@+id/stock_hawk"
+        android:layout_below="@+id/popular_movies"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/build_it_bigger"
+        android:layout_below="@+id/stock_hawk"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/make_your_app_material"
+        android:id="@+id/make_your_app_material"
+        android:layout_below="@+id/build_it_bigger"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/go_ubiquitous"
+        android:id="@+id/go_ubiquitous"
+        android:layout_below="@+id/make_your_app_material"/>
+
+    <Button
+        style="@style/buttons"
+        android:text="@string/capstone"
+        android:id="@+id/capstone"
+        android:layout_below="@+id/go_ubiquitous"/>
+
+</RelativeLayout>
